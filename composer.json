@@ -1,0 +1,35 @@
+{
+  "name": "mrcl/message-headers",
+  "description": "Message Headers library",
+  "keywords": [
+    "http header",
+    "mail header",
+    "mime header",
+    "netnews header",
+    "message header"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Marcel Hopf",
+      "homepage": "https://github.com/devmrcl"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mrcl\\Utils\\InternetStandards\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Mrcl\\Tests\\Utils\\InternetStandards\\": "tests/"
+    }
+  }
+}
