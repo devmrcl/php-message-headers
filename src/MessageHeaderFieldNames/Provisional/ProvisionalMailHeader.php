@@ -14,7 +14,7 @@ interface ProvisionalMailHeader
     /**
      * Author
      *
-     * @link https://datatracker.ietf.org/doc/draft-crocker-email-author/04/ DRAFT
+     * @link https://datatracker.ietf.org/doc/html/rfc9057 RFC9057
      */
     public const AUTHOR = 'Author';
 
